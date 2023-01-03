@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hawaii Rental Service</title>
+    <meta name="author" content="Jiaqi (Fiona) Xia" />
+    <meta
+      name="description"
+      content="We have a full range of shortboards to choose from. High performance, hybrid, fish, and more!"
+    />
+    <meta name="robots" content="index, follow" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- page icon -->
+    <link rel="shortcut icon" href="" />
+    <link rel="bookmark" href="" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./Styles/style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <!--title-->
+    <header>
+      <div class="logo">
+        <img src="./Icons/black logo.svg" alt="Logo" />
+        <h1>Hawaii Rental Service</h1>
+      </div>
+
+      <!--Nav bar-->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--main-->
+    <main>
+      <br />
+
+      <section class="container">
+        <section class="left">
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-6">
+              <label for="validationCustom01" class="form-label"
+                >First name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom01"
+                value="Mark"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="validationCustom02" class="form-label"
+                >Last name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom02"
+                value="Otto"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="validationCustom01" class="form-label"
+                >Telephone Number:
+              </label>
+              <input
+                type="text"
+                class="form-control"
+                id="Telephone01"
+                required
+              />
+              <div class="invalid-feedback">
+                Please provide a valid Telephone Number.
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="validationCustom01" class="form-label">Email: </label>
+              <input
+                type="text"
+                class="form-control"
+                id="email01"
+                value="name@example.com"
+                required
+              />
+              <div class="invalid-feedback">
+                Please provide a valid Email address.
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">City</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom03"
+                required
+              />
+              <div class="invalid-feedback">Please provide a valid city.</div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">State</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Choose...</option>
+                <option value="AL">AL</option>
+                <option value="AK">AK</option>
+                <option value="AR">AR</option>
+                <option value="AZ">AZ</option>
+                <option value="CA">CA</option>
+                <option value="CO">CO</option>
+                <option value="CT">CT</option>
+                <option value="DC">DC</option>
+                <option value="DE">DE</option>
+                <option value="FL">FL</option>
+                <option value="GA">GA</option>
+                <option value="HI">HI</option>
+                <option value="IA">IA</option>
+                <option value="ID">ID</option>
+                <option value="IL">IL</option>
+                <option value="IN">IN</option>
+                <option value="KS">KS</option>
+                <option value="KY">KY</option>
+                <option value="LA">LA</option>
+                <option value="MA">MA</option>
+                <option value="MD">MD</option>
+                <option value="ME">ME</option>
+                <option value="MI">MI</option>
+                <option value="MN">MN</option>
+                <option value="MO">MO</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="NC">NC</option>
+                <option value="NE">NE</option>
+                <option value="NH">NH</option>
+                <option value="NJ">NJ</option>
+                <option value="NM">NM</option>
+                <option value="NV">NV</option>
+                <option value="NY">NY</option>
+                <option value="ND">ND</option>
+                <option value="OH">OH</option>
+                <option value="OK">OK</option>
+                <option value="OR">OR</option>
+                <option value="PA">PA</option>
+                <option value="RI">RI</option>
+                <option value="SC">SC</option>
+                <option value="SD">SD</option>
+                <option value="TN">TN</option>
+                <option value="TX">TX</option>
+                <option value="UT">UT</option>
+                <option value="VT">VT</option>
+                <option value="VA">VA</option>
+                <option value="WA">WA</option>
+                <option value="WI">WI</option>
+                <option value="WV">WV</option>
+                <option value="WY">WY</option>
+              </select>
+              <div class="invalid-feedback">Please select a valid state.</div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Zip</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom05"
+                required
+              />
+              <div class="invalid-feedback">Please provide a valid zip.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Any suggestions?</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="6"
+                cols="60"
+                placeholder="Write something..."
+              ></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="invalidCheck"
+                  required
+                />
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+          </form>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
